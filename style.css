@@ -1,0 +1,18 @@
+:root {
+  --container-width: calc();
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background: url(./images/pexels-danielabsi-952670.jpg);
+  background-size: cover;
+}
+
+#container {
+  background-color: aliceblue;
+  width: 60%;
+  height: 98.3vh;
+  margin-top: 0;
+  margin-left: auto;
+}

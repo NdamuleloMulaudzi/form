@@ -3,16 +3,18 @@
 }
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 body {
-  background: url(./images/pexels-danielabsi-952670.jpg);
-  background-size: cover;
+  background: url(./images/pexels-shonejai-445753-1227511.jpg);
+  background-size: contain;
+  overflow: hidden;
 }
 
-#container {
-  background-color: aliceblue;
+.container {
+  background-color: rgba(162, 217, 238, 0.3);
   width: 60%;
-  height: 98.3vh;
+  height: 100vh;
   margin-top: 0;
   margin-left: auto;
 }

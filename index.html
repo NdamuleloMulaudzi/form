@@ -28,18 +28,18 @@
 
         <div class="form-container">
           <p>Let's do this!</p>
-          <form action="www.nowhere.com">
+          <form action="www.nowhere.com" id="form">
             <div class="input">
               <label for="firstname">FIRST NAME</label>
-              <input type="text" name="firstname" id="firstname" />
+              <input type="text" name="firstname" id="firstname" required />
             </div>
             <div class="input">
               <label for="lastname">LAST NAME</label>
-              <input type="text" name="lastname" id="lastname" />
+              <input type="text" name="lastname" id="lastname" required />
             </div>
             <div class="input">
               <label for="email">EMAIL</label>
-              <input type="email" name="email" id="email" />
+              <input type="email" name="email" id="email" required />
             </div>
             <div class="input">
               <label for="phone-number">PHONE NUMBER</label>
@@ -47,7 +47,7 @@
             </div>
             <div class="input">
               <label for="password">PASSWORD</label>
-              <input type="password" name="password" id="password" />
+              <input type="password" name="password" id="password" required />
             </div>
             <div class="input">
               <label for="confirm-password">CONFIRM PASSWORD</label>
@@ -55,12 +55,15 @@
                 type="password"
                 name="confirm-password"
                 id="confirm-password"
+                required
               />
             </div>
           </form>
         </div>
         <div class="button">
-          <button>Create Account</button>
+          <button type="submit" form="form" value="submit">
+            Create Account
+          </button>
           <p>Already have an account? <a href="#">Log in</a></p>
         </div>
       </div>

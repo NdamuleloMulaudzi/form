@@ -89,3 +89,8 @@ a:active {
 input:focus {
   border-color: red;
 }
+
+.photo-by a {
+  color: black;
+  font-size: 30px;
+}
